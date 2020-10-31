@@ -11,9 +11,9 @@ public class Inst2 : MonoBehaviour
         for (int i = 0; i < 5; i++)
         {
             Vector3 position = new Vector3(
-                Random.RandomRange(-8f, 8f),
+                Random.Range(-8f, 8f),
                 0.0f,
-                Random.RandomRange(-8f, 8f)
+                Random.Range(-8f, 8f)
             );
 
             Instantiate(prefab, position, Quaternion.identity);
